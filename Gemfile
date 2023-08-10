@@ -10,6 +10,16 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll", "~> 3.9.0"
 
+group :jekyll_plugins do
+  gem 'github-pages'
+  gem 'jekyll-seo-tag'
+  gem 'jekyll-gist'
+  gem 'jekyll-feed'
+  gem 'jemoji'
+  gem "jekyll-paginate-v2", "~> 2.0"
+  gem "html-proofer"
+end
+
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minimal-mistakes-jekyll"
 
