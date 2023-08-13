@@ -3,11 +3,7 @@ layout: default
 title: Blog
 ---
 <section class="list">
-		{% for post in site.posts %}
-			{% if post.category == 'blog' %}
-				{% if post.hidden != true %}
-					{% include blog-post.html %}
-				{% endif %}
-			{% endif %}
+		{% for post in site.posts %}	
+			{% include post.html %}
 		{% endfor %}
 </section>
