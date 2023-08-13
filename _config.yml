@@ -26,7 +26,7 @@ github_username:  jekyll
 
 theme: jekyll-theme-minimal
 
-layout: home
+layout: default
 
 # Build settings
 markdown: kramdown
